@@ -1,0 +1,107 @@
+/* Color Palette
+# - color 1: gray
+# - color 2: beige
+# - color 3: burlywood
+# - color 4: gray
+*/
+
+
+/* Global styles 
+------------------------------------*/
+body {
+    /*background: black;*/
+    background-color: black;
+    margin: 0;
+    /* google font adjustment */
+    font-family: "Clarity City", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+}
+
+/* google font for all headings */
+h1 {
+    font-family: "Isometra", sans-serif;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Isometra", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h3 {
+    font-family: "Isometra", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wholeResume {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+header {
+    display: flex;
+}
+
+.personalIntro {
+    padding-left: 40px;
+    padding-top: 30px;
+    background-color: gray;
+    height: 270px;
+    flex: auto;
+}
+
+.footerContainer {
+    background-color: gray;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Work Experience
+------------------------------------*/
+.sectionContainer {
+    background-color: beige;
+    padding: 40px;
+    background-image: linear-gradient(rgba(245, 245, 220, 0.9)), url("../images/ios.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.workExperience {
+    padding-left: 160px;
+    width: 60%;
+}
+
+.shortDescription p {
+    margin: 0px;
+}
+
+.shortDescription h3 {
+    margin-bottom: 0px;
+}
+
+
+/* Education
+------------------------------------*/
+.educationContainer {
+    background-color: burlywood;
+    padding: 40px;
+}
+
+.education p{
+   margin: 0px;
+}
+
