@@ -75,9 +75,7 @@ header {
 .sectionContainer {
     background-color: beige;
     padding: 40px;
-    background-image: linear-gradient(rgba(245, 245, 220, 0.9)), url("../images/ios.jpeg");
-    background-size: cover;
-    background-position: center;
+    
 }
 
 .workExperience {
@@ -93,15 +91,44 @@ header {
     margin-bottom: 0px;
 }
 
+.workImage {
+    background-image: linear-gradient(rgba(245, 245, 220, 0.9)), url("../images/ios.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.workImage2 {
+    background-image: linear-gradient(rgba(245, 245, 220, 0.6)), url("../images/ref84.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 /* Education
 ------------------------------------*/
 .educationContainer {
     background-color: burlywood;
-    padding: 40px;
+    padding: 60px;
+    padding-right: 0px;
+}
+
+.education {
+    padding-bottom: 60px;
 }
 
 .education p{
    margin: 0px;
+}
+
+.flowRight {
+    float: right;
+    width: 60%;
+    height: 200px;
+}
+
+.flowRight2{
+    float: right;
+    width: 60%;
+    height: 200px;
 }
 
